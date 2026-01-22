@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "category": "movies",
+      "status": "completed",
+      "addedDate": "2026-01-20"
+    },
+    {
+      "id": 2,
+      "title": "The Witcher 3: Wild Hunt",
+      "category": "games",
+      "status": "watching",
+      "addedDate": "2026-01-15"
+    },
+    {
+      "id": 3,
+      "title": "Dune: Part Two",
+      "category": "movies",
+      "status": "want_to_watch",
+      "addedDate": "2026-01-22"
+    }
+  ]
+}
