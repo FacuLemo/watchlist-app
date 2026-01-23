@@ -99,8 +99,18 @@ function App() {
       } else if (!savedData && isMounted.current) {
         const initialData = {
           items: [
-            { id: 1, title: 'El viento se levanta', category: 'Película', status: 'completed', addedDate: '2026-01-20' },
-        
+            { id: 1, title: 'Death Note', category: 'Serie/anime', status: 'watching', addedDate: '2026-01-22' },
+            { id: 2, title: 'Attack on Titan', category: 'Serie/anime', status: 'watching', addedDate: '2026-01-22' },
+            { id: 3, title: 'Kimetsu no Yaiba', category: 'Serie/anime', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 4, title: 'Paprika', category: 'Película', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 5, title: 'Suzume', category: 'Película', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 6, title: 'Tokyo Godfathers', category: 'Película', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 7, title: 'El viento se levanta', category: 'Película', status: 'completed', addedDate: '2026-01-22' },
+            { id: 8, title: 'Kiki Delivery Service', category: 'Película', status: 'completed', addedDate: '2026-01-22' },
+            { id: 9, title: 'Susurros del corazón', category: 'Película', status: 'completed', addedDate: '2026-01-22' },
+            { id: 10, title: 'Weathering with you', category: 'Película', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 11, title: 'Portal', category: 'Juego', status: 'want_to_watch', addedDate: '2026-01-22' },
+            { id: 12, title: 'Layton y la villa misteriosa', category: 'Juego', status: 'watching', addedDate: '2026-01-22' },
           ]
         }
         setItems(initialData.items)
